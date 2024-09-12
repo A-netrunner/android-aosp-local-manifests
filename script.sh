@@ -74,8 +74,10 @@ echo "BUILDING........."
 echo "========================================================================"
 
 
-# LUNCH
+# Temporary Fix
+export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
+
+# Brunch
 source build/envsetup.sh
-lunch voltage_ice-ap2a-userdebug
 make installclean
-mka bacon
+brunch ice
