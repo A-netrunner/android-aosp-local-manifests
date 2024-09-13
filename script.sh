@@ -77,7 +77,8 @@ echo "========================================================================"
 # Temporary Fix
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 
-# Brunch
+# Breakfast
 source build/envsetup.sh
+breakfast ice userdebug
 make installclean
-brunch ice
+mka bacon
