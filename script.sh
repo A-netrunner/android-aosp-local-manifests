@@ -75,7 +75,7 @@ echo "========================================================================"
 
 
 # Temporary Fix
-export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
+export TARGET_FACE_UNLOCK_SUPPORTED=false
 
 # Breakfast
 source build/envsetup.sh
