@@ -39,7 +39,7 @@
   <project path="packages/apps/Droid-ify" name="DevInfinix/packages_apps_Droid-ify" remote="github-rmx3461" revision="14-derp-bleeding-edge" />
 
   <!-- ParanoidSense -->
-  <project name="ponces/packages_apps_ParanoidSense" path="packages/apps/ParanoidSense" remote="github-rmx3461" revision="uvite" />
+  <!-- project name="ponces/packages_apps_ParanoidSense" path="packages/apps/ParanoidSense" remote="github-rmx3461" revision="uvite" / -->
 
   <!-- Vibrator -->
   <!-- project path="vendor/qcom/opensource/vibrator" name="DevInfinix/android_vendor_qcom_opensource_vibrator" remote="github-rmx3461" revision="14-derp-bleeding-edge" / -->
