@@ -74,9 +74,6 @@ echo "BUILDING........."
 echo "========================================================================"
 
 
-# Temporary Fix
-export TARGET_FACE_UNLOCK_SUPPORTED=false
-
 # Breakfast
 source build/envsetup.sh
 breakfast ice userdebug
