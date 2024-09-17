@@ -20,7 +20,7 @@ echo "========================================================================"
 
 
 # Repo Init
-repo init -u  https://github.com/VoltageOS/manifest.git -b fourteen --git-lfs --depth=1
+repo init -u  https://github.com/VoltageOS/manifest.git -b 14 --git-lfs --depth=1
 
 echo "========================================================================"
 echo "REPO INITIALIZED"
