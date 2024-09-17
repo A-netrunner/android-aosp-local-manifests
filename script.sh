@@ -28,9 +28,9 @@ echo "========================================================================"
 
 
 # Clone local_manifests repository
-git clone https://github.com/DevInfinix/android-aosp-local-manifests --depth 1 -b 14-rising .repo/local_manifests
+git clone https://github.com/A-netrunner/android-aosp-local-manifests --depth 1 -b 14 .repo/local_manifests
 if [ ! 0 == 0 ]
-    then curl -o .repo/local_manifests https://github.com/DevInfinix/android-aosp-local-manifests.git
+    then curl -o .repo/local_manifests https://github.com/A-netrunner/android-aosp-local-manifests
 fi
 
 echo "========================================================================"
