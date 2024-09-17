@@ -9,9 +9,9 @@ rm -rf device/oneplus
 rm -rf vendor/oneplus
 rm -rf vendor/oplus
 rm -rf vendor/lineage-priv/keys/
-rm -rf packages/apps/ViMusic
-rm -rf packages/apps/Droid-ify
-rm -rf packages/apps/Aves
+#rm -rf packages/apps/ViMusic
+#rm -rf packages/apps/Droid-ify
+#rm -rf packages/apps/Aves
 
 
 echo "========================================================================"
@@ -20,7 +20,7 @@ echo "========================================================================"
 
 
 # Repo Init
-repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs --depth=1
+repo init -u  https://github.com/VoltageOS/manifest.git -b fourteen --git-lfs --depth=1
 
 echo "========================================================================"
 echo "REPO INITIALIZED"
