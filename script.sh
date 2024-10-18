@@ -9,11 +9,11 @@ rm -rf device/oneplus
 rm -rf vendor/oneplus
 rm -rf vendor/oplus
 rm -rf vendor/lineage-priv/keys/
-rm -rf packages/apps/RevampedFMRadio
-rm -rf packages/apps/Droid-ify
-rm -rf packages/apps/PixelParts
-rm -rf packages/apps/ViMusic
-rm -rf packages/apps/ViPER4AndroidFX
+#rm -rf packages/apps/RevampedFMRadio
+#rm -rf packages/apps/Droid-ify
+#rm -rf packages/apps/PixelParts
+#rm -rf packages/apps/ViMusic
+#rm -rf packages/apps/ViPER4AndroidFX
 
 
 echo "========================================================================"
@@ -22,7 +22,7 @@ echo "========================================================================"
 
 
 # Repo Init
-repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs --depth=1
+repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs --depth=1
 
 echo "========================================================================"
 echo "REPO INITIALIZED"
@@ -30,9 +30,9 @@ echo "========================================================================"
 
 
 # Clone local_manifests repository
-git clone https://github.com/DevInfinix/android-aosp-local-manifests --depth 1 -b 14-rising .repo/local_manifests
+git clone https://github.com/A-netrunner/android-aosp-local-manifests --depth 1 -b voltage-14 .repo/local_manifests
 if [ ! 0 == 0 ]
-    then curl -o .repo/local_manifests https://github.com/DevInfinix/android-aosp-local-manifests.git
+    then curl -o .repo/local_manifests https://github.com/A-netrunner/android-aosp-local-manifests.git
 fi
 
 echo "========================================================================"
